@@ -21,15 +21,15 @@ const HomePage = () => (
     <section className="relative bg-white border-b border-slate-100">
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#f1f5f9_1px,transparent_1px),linear-gradient(to_bottom,#f1f5f9_1px,transparent_1px)] bg-[size:40px_40px] opacity-60" />
       <div className="absolute inset-0 bg-gradient-to-br from-white via-white to-blue-50/60" />
-      <div className="relative max-w-6xl mx-auto px-6 pt-24 pb-28 text-center">
+      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 pt-16 sm:pt-24 pb-20 sm:pb-28 text-center">
         <div className="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 text-blue-700 text-xs font-semibold px-3.5 py-1.5 rounded-full mb-8">
           <Activity size={13} /> Healthcare Management System
         </div>
-        <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold text-slate-900 leading-[1.1] tracking-tight mb-6">
+        <h1 className="font-display text-3xl sm:text-5xl lg:text-7xl font-bold text-slate-900 leading-[1.1] tracking-tight mb-5">
           Your health records,<br />
           <span className="text-primary-600">always accessible.</span>
         </h1>
-        <p className="text-lg text-slate-500 max-w-2xl mx-auto mb-10 leading-relaxed">
+        <p className="text-base sm:text-lg text-slate-500 max-w-2xl mx-auto mb-8 leading-relaxed px-2">
           Critical connects patients, doctors, hospitals, and labs on one secure platform.
           From routine appointments to emergency QR access.
         </p>
@@ -37,7 +37,7 @@ const HomePage = () => (
           <Link to="/register" className="btn-primary btn btn-lg gap-2">Create free account <ArrowRight size={18} /></Link>
           <Link to="/login"    className="btn-secondary btn btn-lg">Sign in</Link>
         </div>
-        <div className="mt-16 grid grid-cols-3 gap-8 max-w-lg mx-auto">
+        <div className="mt-10 sm:mt-16 grid grid-cols-3 gap-4 sm:gap-8 max-w-lg mx-auto">
           {[['5 Roles','Patient to Admin'],['QR Access','Zero login needed'],['Secure','JWT + Role guards']].map(([v,l]) => (
             <div key={v} className="text-center">
               <p className="font-display font-bold text-2xl text-slate-900">{v}</p>
@@ -50,7 +50,7 @@ const HomePage = () => (
 
     {/* Features */}
     <section className="py-24 bg-slate-50">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-14">
           <h2 className="font-display text-3xl font-bold text-slate-900 mb-3">Everything in one place</h2>
           <p className="text-slate-400 max-w-xl mx-auto">Built for real healthcare workflows.</p>

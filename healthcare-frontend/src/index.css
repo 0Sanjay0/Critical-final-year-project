@@ -88,3 +88,30 @@ h1, h2, h3, h4, h5, h6 {
 .stagger > *:nth-child(4) { animation-delay: 180ms; }
 .stagger > *:nth-child(5) { animation-delay: 240ms; }
 .stagger > *:nth-child(6) { animation-delay: 300ms; }
+
+/* ── Mobile touch targets ───────────────────────────────── */
+@media (max-width: 768px) {
+  .btn { @apply min-h-[44px] px-4; }
+  .btn-sm { @apply min-h-[36px]; }
+  .input { @apply min-h-[44px] text-base; } /* prevent iOS zoom on focus */
+  .page-container { @apply px-3 py-5; }
+}
+
+/* ── Safe area for notch phones ─────────────────────────── */
+.safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+.safe-top    { padding-top: env(safe-area-inset-top); }
+
+/* ── Prevent horizontal scroll ──────────────────────────── */
+body { overflow-x: hidden; }
+
+/* ── Table scroll wrapper ───────────────────────────────── */
+.table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ── Mobile card stack ──────────────────────────────────── */
+@media (max-width: 640px) {
+  .mobile-stack { flex-direction: column !important; }
+  .mobile-full  { width: 100% !important; }
+}
