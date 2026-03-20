@@ -31,7 +31,7 @@ const PublicLayout = () => {
                 <path d="M12 2v20M2 12h20" strokeLinecap="round"/>
               </svg>
             </div>
-            <span className="font-display font-bold text-slate-900">Critical</span>
+            <span className="font-display font-bold text-slate-900">EDIAM</span>
           </Link>
 
           {/* Nav */}
@@ -76,7 +76,7 @@ const PublicLayout = () => {
       <main className="flex-1"><Outlet/></main>
 
       <footer className="border-t border-slate-200 bg-white py-4 text-center text-xs sm:text-sm text-slate-400">
-        © {new Date().getFullYear()} Critical Healthcare System
+        © {new Date().getFullYear()} EDIAM — Emergency Data & Information Access Model
       </footer>
     </div>
   );

@@ -272,7 +272,7 @@ const EmergencyPage = () => {
         )}
 
         <p className="text-center text-xs text-slate-400 pb-4">
-          Critical Emergency Access · Data accurate as of last patient update
+          EDIAM · Emergency Data & Information Access Model
         </p>
       </div>
     </div>

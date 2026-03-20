@@ -1,5 +1,5 @@
 {
-  "name": "critical-api",
+  "name": "ediam-api",
   "version": "1.0.0",
   "description": "Healthcare Management System - Backend API",
   "main": "server.js",

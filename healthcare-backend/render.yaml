@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: critical-api
+    name: ediam-api
     env: node
     region: singapore
     plan: free

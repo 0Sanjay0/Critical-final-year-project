@@ -30,7 +30,7 @@ const HomePage = () => (
           <span className="text-primary-600">always accessible.</span>
         </h1>
         <p className="text-base sm:text-lg text-slate-500 max-w-2xl mx-auto mb-8 leading-relaxed px-2">
-          Critical connects patients, doctors, hospitals, and labs on one secure platform.
+          EDIAM connects patients, doctors, hospitals, and labs on one secure platform.
           From routine appointments to emergency QR access.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">

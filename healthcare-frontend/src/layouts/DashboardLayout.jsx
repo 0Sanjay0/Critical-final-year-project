@@ -61,7 +61,7 @@ const Sidebar = ({ user, navItems, color, onLogout, onClose, mobile }) => (
           <path d="M12 2v20M2 12h20" strokeLinecap="round"/>
         </svg>
       </div>
-      <span className="font-display font-bold text-slate-900">Critical</span>
+      <span className="font-display font-bold text-slate-900">EDIAM</span>
       {mobile && (
         <button onClick={onClose} className="ml-auto p-2 text-slate-400 hover:text-slate-700 rounded-lg hover:bg-slate-100">
           <X size={18}/>
@@ -166,7 +166,7 @@ const DashboardLayout = () => {
               <path d="M12 2v20M2 12h20" strokeLinecap="round"/>
             </svg>
           </div>
-          <span className="font-display font-bold text-slate-900 text-sm">Critical</span>
+          <span className="font-display font-bold text-slate-900 text-sm">EDIAM</span>
           {/* Current page label on right */}
           <span className="ml-auto text-xs text-slate-400 truncate max-w-[120px]">
             {navItems.find(n => location.pathname.startsWith(n.to))?.label || ''}
