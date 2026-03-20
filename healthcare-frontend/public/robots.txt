@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /patient/
+Disallow: /doctor/
+Disallow: /hospital/
+Disallow: /lab/
+Disallow: /admin/
+Disallow: /emergency/
+
+Sitemap: https://ediam-healthcare.vercel.app/sitemap.xml
