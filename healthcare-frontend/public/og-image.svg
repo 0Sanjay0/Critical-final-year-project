@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#0c4a6e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0284c7"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Grid pattern -->
+  <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="white" stroke-width="0.3" opacity="0.08"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- Logo icon -->
+  <circle cx="140" cy="315" r="72" fill="url(#accent)" opacity="0.15"/>
+  <circle cx="140" cy="315" r="56" fill="url(#accent)"/>
+  <rect x="129" y="291" width="22" height="48" rx="5" fill="white"/>
+  <rect x="116" y="304" width="48" height="22" rx="5" fill="white"/>
+
+  <!-- EDIAM text -->
+  <text x="240" y="300" font-family="Arial, sans-serif" font-weight="800"
+    font-size="96" fill="white" letter-spacing="-2">EDIAM</text>
+
+  <!-- Divider line -->
+  <rect x="240" y="322" width="680" height="3" rx="2" fill="url(#accent)"/>
+
+  <!-- Full name -->
+  <text x="240" y="370" font-family="Arial, sans-serif" font-weight="400"
+    font-size="28" fill="#94a3b8" letter-spacing="1">
+    Emergency Data &amp; Information Access Model
+  </text>
+
+  <!-- Tagline -->
+  <text x="240" y="430" font-family="Arial, sans-serif" font-weight="300"
+    font-size="22" fill="#64748b">
+    Secure Healthcare Platform · QR Emergency Access · Digital Records
+  </text>
+
+  <!-- Bottom badges -->
+  <rect x="240" y="490" width="130" height="38" rx="19" fill="#0284c7" opacity="0.2"/>
+  <text x="305" y="514" font-family="Arial, sans-serif" font-size="16" fill="#38bdf8" text-anchor="middle">Patients</text>
+
+  <rect x="386" y="490" width="130" height="38" rx="19" fill="#10b981" opacity="0.2"/>
+  <text x="451" y="514" font-family="Arial, sans-serif" font-size="16" fill="#34d399" text-anchor="middle">Doctors</text>
+
+  <rect x="532" y="490" width="130" height="38" rx="19" fill="#8b5cf6" opacity="0.2"/>
+  <text x="597" y="514" font-family="Arial, sans-serif" font-size="16" fill="#a78bfa" text-anchor="middle">Hospitals</text>
+
+  <rect x="678" y="490" width="130" height="38" rx="19" fill="#f59e0b" opacity="0.2"/>
+  <text x="743" y="514" font-family="Arial, sans-serif" font-size="16" fill="#fbbf24" text-anchor="middle">Labs</text>
+
+  <!-- URL -->
+  <text x="1160" y="600" font-family="Arial, sans-serif" font-size="18"
+    fill="#475569" text-anchor="end">ediam-healthcare.vercel.app</text>
+</svg>
